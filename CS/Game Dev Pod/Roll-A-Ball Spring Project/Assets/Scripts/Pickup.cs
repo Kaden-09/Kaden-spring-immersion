@@ -39,7 +39,7 @@ public class Pickup : MonoBehaviour
         // 3. Write a single-line if statement with the following condition: if 'isCollected == true'; after the parentheses, type 'return;'
         // This if statement checks to see if the player has already collected a pickup to avoid the player from picking up the same item more than once
         // The 'return' keyword exits this OnTriggerEnter() method/function early since we do not want to calculate picking up a pickup item more than once
-        if (isCollected = true)
+        if (isCollected == true)
         {
             return;
         }
